@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件下载</title>
+</head>
+<body>
+<!--
+<form role="form" method="post" action="__URL__/upload" enctype="multipart/form-data">
+    <div class="modal-body">
+        <div class="form-group">
+            <input type="file" id="inputfile" name="file">
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        <button type="submit" class="btn btn-primary">导入</button>
+    </div>
+</form>
+-->
+
+<form action="__URL__/upload" enctype="multipart/form-data" method="post" role="form">
+    <input type="file" name="image" /> <br>
+    <input type="submit" value="上传" />
+</form>
+<a href="__URl__/downFile">下载文件</a>
+
+</body>
+</html>
